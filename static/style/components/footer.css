@@ -1,0 +1,12 @@
+.footer-div{
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    color: #888;
+    border-top: dodgerblue 1px solid;
+    margin-top: 1rem;
+    background-color: white;
+    opacity: .9;
+    backdrop-filter: blur(3rem);
+
+}

@@ -1,0 +1,19 @@
+div.label-content{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.label-title{
+    color: dodgerblue;
+    line-height: 1.2rem;
+    text-align: center;
+    padding-bottom: 1.2rem;
+}
+
+.label-tag{
+    text-align: center;
+}
+.tag{
+    margin-bottom: .3rem;
+
+}

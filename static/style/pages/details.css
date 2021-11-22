@@ -1,0 +1,49 @@
+.detail-title{
+    font-size: 1.8rem;
+    text-align: center;
+    opacity: .8;
+}
+.common-left-details{
+    box-shadow: 0 1px 4px 1px #1e90ff;
+    padding: 1rem .5rem 0 .5rem;
+    /*margin-top: 1.4rem;*/
+    /*opacity: .9;*/
+    margin-right: 2rem;
+    border-radius: .3rem;
+    backdrop-filter:blur(3rem);
+}
+.detail-icons {
+    color: #1e90ff;
+    opacity: .6;
+    font-size: .8rem;
+    text-align: center;
+    padding: 0 .3rem;
+}
+.icon-span{
+    padding: 0 1rem;
+}
+.detail-content{
+    margin-top: 1rem;
+}
+pre{
+    border-radius: .3rem;
+}
+
+.ant-col img{
+    width: 100%;
+}
+
+.details-nav{
+    /*background-color: white;*/
+    padding-top: .5rem;
+}
+.nav-menu{
+    text-align: center;
+    color: dodgerblue;
+}
+
+.markdown-navigation .title-anchor:hover, .markdown-navigation .title-anchor.active{
+    backdrop-filter: blur(1rem);
+    background-color: rgba(256,256,256,.05);
+    opacity: .6;
+}

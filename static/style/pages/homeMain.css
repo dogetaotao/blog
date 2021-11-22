@@ -1,0 +1,38 @@
+.common-main{
+    margin-top: 3rem;
+    padding:0 1rem;
+
+}
+
+.common-right{
+    /*background-color: white;*/
+    border-radius: .3rem;
+    /*border: 1px solid #cccccc;*/
+}
+.list-title{
+    font-size: 1.4rem;
+}
+.ant-list-header{
+    font-size: 1.4rem;
+    color: dodgerblue;
+    border-bottom: 2px solid #1e90ff !important;
+ }
+.list-home{
+    backdrop-filter: none;
+    padding: 0 .5rem 1rem .5rem;
+    border-radius: .3rem;
+    box-shadow: 0 1px 4px 1px #1e90ff;
+}
+
+.ant-list-item{
+    border-radius: .3rem;
+    margin: 1rem 0;
+    /*background-color: white;*/
+    backdrop-filter:blur(3rem);
+    padding: 0 1rem;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 4px 1px #1e90ff;
+}
+
+
+
