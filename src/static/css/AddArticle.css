@@ -1,0 +1,66 @@
+.markdown-content{
+    margin-top: 10px;
+    border-radius: .3rem;
+}
+
+.show-content{
+    margin-top: 10px;
+    width: 100%;
+    text-overflow: ellipsis;
+    background-color: #eeeeee;
+    min-height: 780px;
+    border-radius: .3rem;
+    border: #cccccc 1px solid;
+    padding: 6px 12px;
+    color: #999999;
+}
+
+.show-content img{
+    width: 100%;
+}
+
+.Button-put{
+    margin-left: 6px;
+    margin-bottom: 10px;
+}
+.datepicker{
+    width: 100%;
+    border-radius: .3rem;
+}
+.show-introduce{
+    margin: 10px 0;
+    width: 100%;
+    background-color: #eeeeee;
+    height: auto;
+    border-radius: .3rem;
+    border: #cccccc 1px solid;
+    padding: 6px 12px;
+    color: #999999;
+}
+.introduce-content{
+    border-radius: .3rem;
+}
+
+.ant-menu.ant-menu-dark,
+.ant-menu-dark .ant-menu-sub,
+.ant-menu.ant-menu-dark
+.ant-menu-sub{
+    background: url("../../img/R-C2.png") no-repeat;
+}
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal)
+.ant-menu-item-selected{
+    background-color: rgba(30, 144, 255, 0.3);
+
+}
+.ant-layout-sider-trigger{
+    background: none;
+}
+
+.ant-layout-sider,
+.ant-layout-sider-dark ,
+.ant-layout-sider-collapsed ,
+.ant-layout-sider-has-trigger{
+    background: url("../../img/R-C2.png") no-repeat;
+    background-size: cover;
+    color: #888888;
+}

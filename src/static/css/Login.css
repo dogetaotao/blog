@@ -1,0 +1,60 @@
+.ant-card{
+    margin: 150px auto;
+    width: 400px;
+    backdrop-filter: blur(5px);
+    border-radius: 1rem;
+    box-shadow: 0 0 4rem #b0b0b0;
+    background-attachment: fixed;
+}
+.ant-card-head{
+    text-align: center;
+    color: dodgerblue;
+    font-size: 18px;
+    border-bottom: none;
+}
+.ant-card::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    filter: blur(10px);
+    z-index: -1;
+    background-image: url(../../img/R-C.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+#userName{
+    opacity: .8;
+}
+.ant-input-password{
+    opacity: .8;
+}
+.ant-btn{
+    opacity: .8;
+}
+.login{
+    position: relative;
+    animation-name: show;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes show {
+    0% {
+        top: 150px;
+        opacity: 0;
+    }
+    100% {
+        top: 0;
+        opacity: 1;
+    }
+}
+body{
+    /*position: fixed;*/
+    background-image: url(../../img/R-C.png);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
